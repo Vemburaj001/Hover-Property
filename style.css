@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    transition: .4s linear;
+}
+body{
+    background-color: aqua;
+    
+    flex-wrap: wrap;
+   
+}
+
+h1{
+    border: 3px solid black;
+    text-align: center;
+    font-family: 'Sevillana', cursive;
+}
+.Header{
+    background-image:linear-gradient(120deg,yellow, blue, white, orange, brown);
+    text-align: center;
+    border: 3px solid black;
+    height: 400px;
+    font-size: 35px;
+    width: 600px;
+    margin: 60px;
+}
+
+.Header1{
+    background-image:linear-gradient(to top left,yellow, blue, white, orange, rgb(151, 42, 165));
+    text-align: center;
+    border: 3px solid black;
+    font-size: 35px;
+    height: 400px;
+    width: 600px;
+    margin: 60px;
+}
+
+
+.container{
+    display: flex;
+    margin: 40px;
+    font-family: 'Teko', sans-serif;
+   
+}
+
+.ex1{
+   
+    height: 60px;
+    margin: 20px;
+}
+
+.ex2{
+   
+    height: 60px;
+    margin: 20px;
+}
+
+.ex3{
+   
+    height: 60px;
+    margin: 20px;
+}
+
+.ex4{
+   
+    height: 60px;
+    margin: 20px;
+}
+
+.ex5{
+   
+    height: 60px;
+    margin: 20px;
+}
+
+h1:hover{
+   color: rgb(0, 255, 166);
+   background-color: blue;
+   
+}
+
+.ex1:hover{
+    color: rgb(237, 157, 100);
+}
+
+.ex2:hover{
+    font-size: 50px;
+}
+
+.ex3:hover{
+    background-color: rgb(255, 196, 0);
+}
+
+.ex4:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ex5:hover{
+   text-decoration: line-through;
+}
+
+
+
+
+
